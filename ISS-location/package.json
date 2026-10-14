@@ -1,0 +1,15 @@
+{
+    "name": "ISS-location",
+    "type": "module",
+    "author": "Todd Boothroyd",
+    "version": "1.0.0",
+    "description": "ISS location reports where the international space station is located. Additional nuances will report if the station is over a country or ocean; and if it can be seen with naked eye.",
+    "scripts": {
+        "start":"node src/index.js"
+    },
+    "customAppSettings": {
+        "logExtractsToDebug": false,
+        "logAPIResponseToDebug": false,
+        "geoNamesUsername": "engtoddboothroyd"
+    }
+}

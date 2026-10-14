@@ -1,0 +1,13 @@
+const getApiKeys = new Map();
+getApiKeys.set("satellite-id", "id");
+getApiKeys.set("satellite-replace-id", "{ID}");
+getApiKeys.set("satellite-latitude", "latitude");
+getApiKeys.set("satellite-replace-latitude", "{LATITUDE}");
+getApiKeys.set("satellite-longitude", "longitude");
+getApiKeys.set("satellite-replace-longitude", "{LONGITUDE}");
+getApiKeys.set("satellite-visibility", "visibility");
+getApiKeys.set("satellite-replace-username", "{USERNAME}");
+getApiKeys.set("satellite-country-code", "country_code");
+getApiKeys.set("satellite-map-url", "map_url");
+getApiKeys.set("satellite-map-name", "name");
+export default getApiKeys;
